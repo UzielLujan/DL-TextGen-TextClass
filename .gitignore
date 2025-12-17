@@ -9,3 +9,6 @@ data/*.json
 !data/canciones_clean.txt
 Context/
 *.ipynb
+
+*.pdf
+*.txt

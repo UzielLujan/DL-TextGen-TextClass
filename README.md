@@ -1,10 +1,10 @@
-# 🧠 DL-TextGen-TextClass
+# DL-TextGen-TextClass
 
 Proyecto de Deep Learning aplicado a **generación y clasificación de texto en español**, desarrollado en el contexto de la **Tarea 2** del curso *Procesamiento de Texto e Imágenes con Deep Learning* (Maestría en Cómputo Estadístico — CIMAT).
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 DL-TextGen-TextClass/
@@ -82,7 +82,7 @@ sbatch run_train_mtl_lora.sh # Fine-tuning multitarea BETO + LoRA
 
 ---
 
-## 📊 Resultados esperados
+## Resultados esperados
 
 | Parte | Modelos | Métricas principales | Mejores resultados |
 |-------|---------|----------------------|--------------------|
@@ -91,7 +91,7 @@ sbatch run_train_mtl_lora.sh # Fine-tuning multitarea BETO + LoRA
 
 ---
 
-## 🔁 Reproducibilidad
+## Reproducibilidad
 
 - Semilla global = 42 en todos los scripts
 - Entrenamientos y evaluaciones totalmente parametrizables vía argparse
@@ -101,7 +101,7 @@ sbatch run_train_mtl_lora.sh # Fine-tuning multitarea BETO + LoRA
 
 ---
 
-## 📘 Documentación detallada
+## Documentación detallada
 
 - `PartA/README_A.md`: pipeline completo de generación de texto
 - `PartB/README_B.md`: pipeline completo de clasificación multitarea
